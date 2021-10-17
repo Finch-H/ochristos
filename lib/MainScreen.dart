@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:ochristos/widget/appbar.dart';
 
 class MainScreen extends StatefulWidget {
 //  const MainScreen({Key? key}) : super(key: key);
@@ -14,9 +15,9 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey,
-      body:
-      Padding(
-        padding: const EdgeInsets.only(top:50.0),
+      appBar: appbar(),
+      body: Padding(
+        padding: const EdgeInsets.only(top:2.0),
         child: SingleChildScrollView(
           scrollDirection: Axis.vertical,
           child: Column(
@@ -29,7 +30,7 @@ class _MainScreenState extends State<MainScreen> {
                 padding: const EdgeInsets.symmetric(
                     horizontal: 15, vertical: 5),
 
-                child: Image.asset('assets/images/image.jpg',
+                child: Image.asset('assets/images/image2.JPG',
                   width: double.infinity,),
 
 
