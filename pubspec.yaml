@@ -31,11 +31,13 @@ dependencies:
   bottom_sheet_expandable_bar:
   http:
   flutter_launcher_icons:
-
+  carousel_slider: ^4.0.0
   tcard:
   flutter_svg:
   simple_animations:
   lottie:
+  hexcolor: ^2.0.5
+
 
 
 dev_dependencies:

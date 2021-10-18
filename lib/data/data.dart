@@ -36,7 +36,7 @@ class Images {
   static SvgPicture menu = SvgPicture.asset(
     "images/menu.svg",
   );
-  static Image logo = Image.asset('assets/images/LOGO1.png' ,height: 20,) ;
+  static Image logo = Image.asset('assets/images/LOGO1.png' ,height: 40,) ;
 
 //   static SvgPicture shop = SvgPicture.asset(
 //     "images/shop.svg",
