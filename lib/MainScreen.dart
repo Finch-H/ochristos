@@ -100,9 +100,9 @@ class _MainScreenState extends State<MainScreen> {
 
                     child: Container(
                       decoration: BoxDecoration(
-                          color: Colors.white70,
+                          color: HexColor("#004450"),
                           borderRadius:
-                          BorderRadius.only(topLeft: Radius.circular(30.0)),
+                          BorderRadius.only(topLeft: Radius.circular(0.0)),
                           border: Border.all(color: Colors.white, width: 1.0)),
                       child: Column(children: [
                         ListTile(
@@ -114,16 +114,16 @@ class _MainScreenState extends State<MainScreen> {
                           },
                           leading: Icon(
                             Icons.person,
-                            color: Colors.black,
+                            color: HexColor("#FECE17"),
                           ),
                           title: Text(
-                            "Visit Profile",
-                            style: TextStyle(fontSize: 15.0),
+                            "My Profile",
+                            style: TextStyle(fontSize: 15.0,color: HexColor("#FECE17"),),
                           ),
-                          subtitle: Text("Personal Details"),
+                         // subtitle: Text("Personal Details"),
                           trailing: Icon(
                             Icons.keyboard_arrow_right_rounded,
-                            color: Colors.black,
+                            color:HexColor("#FECE17"),
                           ),
                         ),
                         Container(
@@ -141,8 +141,8 @@ class _MainScreenState extends State<MainScreen> {
                                       builder: (context) => MainScreen()));
                             },
                             leading: Icon(
-                              Icons.history,
-                              color: Colors.black,
+                              Icons.account_balance_rounded,
+                              color: HexColor("#FECE17"),
                             ),
                             title: GestureDetector(
                                 onTap: () {
@@ -153,13 +153,13 @@ class _MainScreenState extends State<MainScreen> {
                                              MainScreen()));
                                 },
                                 child: Text(
-                                  "Delivery History",
-                                  style: TextStyle(fontSize: 15.0),
+                                  "History",
+                                  style: TextStyle(fontSize: 15.0, color: HexColor("#FECE17"),),
                                 )),
-                            subtitle: Text("Keep Track of all Deliveries"),
+                           // subtitle: Text("Keep Track of all Deliveries"),
                             trailing: Icon(
                               Icons.keyboard_arrow_right_rounded,
-                              color: Colors.black,
+                              color: HexColor("#FECE17"),
                             ),
                           ),
                           Container(
@@ -178,7 +178,7 @@ class _MainScreenState extends State<MainScreen> {
                               },
                               leading: Icon(
                                 Icons.info,
-                                color: Colors.black,
+                                color: HexColor("#FECE17"),
                               ),
                               title: GestureDetector(
                                   onTap: () {
@@ -190,13 +190,13 @@ class _MainScreenState extends State<MainScreen> {
                                   },
                                   child: Text(
                                     "About",
-                                    style: TextStyle(fontSize: 15.0),
+                                    style: TextStyle(fontSize: 15.0,color:HexColor("#FECE17"),),
                                   )),
-                              subtitle:
-                              Text("Terms & Conditions, Privacy Policy"),
+                              //subtitle:
+                              //Text("Terms & Conditions, Privacy Policy"),
                               trailing: Icon(
                                 Icons.keyboard_arrow_right_rounded,
-                                color: Colors.black,
+                                color: HexColor("#FECE17"),
                               ),
                             ),
                           ]),
@@ -214,11 +214,11 @@ class _MainScreenState extends State<MainScreen> {
                   Container(
                     child: Container(
                       height: 70,
-                      decoration: BoxDecoration(
-                          color: Colors.white70,
-                          borderRadius:
-                          BorderRadius.only(topLeft: Radius.circular(30.0)),
-                          border: Border.all(color: Colors.white, width: 1.0)),
+                      // decoration: BoxDecoration(
+                      //     color:  HexColor("#004450"),
+                      //     borderRadius:
+                      //     BorderRadius.only(topLeft: Radius.circular(30.0)),
+                      //     border: Border.all(color: Colors.white, width: 1.0)),
                       child: Column(children: [
                         ListTile(
                           onTap: () {
