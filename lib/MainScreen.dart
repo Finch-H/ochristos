@@ -2,6 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:ochristos/project.dart';
 import 'package:ochristos/widget/appbar.dart';
 
 class MainScreen extends StatefulWidget {
@@ -387,7 +388,7 @@ class _MainScreenState extends State<MainScreen> {
                                   ),
 
 
-                                  onPressed: () {  },
+                                  onPressed: () { Navigator.pushNamed(context,project.idScreen);  },
 
 
                             ),
