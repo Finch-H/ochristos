@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ochristos/LogIn%20Screen.dart';
+import 'package:ochristos/project.dart';
 
 import 'MainScreen.dart';
 
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         //RegistrationScreen.idScreen:(context) =>RegistrationScreen(),
         LoginScreen.idScreen:(context)=>LoginScreen(),
         MainScreen.idScreen:(context) =>MainScreen(),
+        project.idScreen:(context)=> project(),
        // AboutScreen.idScreen: (context) => AboutScreen(),
         //HomeAlt.idScreen: (context) => HomeAlt()
       },
